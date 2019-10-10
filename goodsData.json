@@ -1,0 +1,173 @@
+[
+	{ 
+		"id": 1,
+		"goodsNo": "SD461545455", 		
+		"brand": "华为",
+		"name": "荣耀 9X 麒麟810",
+		"title": "荣耀9X 麒麟810 4000mAh超强续航 4800万超清夜拍 6.59英寸升降全面屏 全网通4GB+64GB",
+		"addTime":"2019-09-09T13:56:59.876Z",
+		"zhaiyao":"",
+		"click": 3,
+		"img":"../src/images/goods1-1.jpg",
+		"nowPrice": 1399,
+		"oldPrice": 1799,
+		"stockQuantity": 323,
+		"lunbo": [
+			{ "img":"../src/images/goods1-1.jpg" },
+			{ "img":"../src/images/goods1-2.jpg" },
+			{ "img":"../src/images/goods1-3.jpg" },
+			{ "img":"../src/images/goods1-4.jpg" }
+		]
+	},
+	{ 
+		"id": 2,
+		"goodsNo": "SD461545456", 		
+		"brand": "苹果",
+		"name": "iPhone 7 Plus",
+		"title": "Apple iPhone 7 Plus (A1661) 128G 黑色 移动联通电信4G手机",
+		"addTime":"2019-09-09T13:56:59.876Z",
+		"zhaiyao":"",
+		"click": 3,
+		"img":"../src/images/goods7-2.jpg",
+		"nowPrice": 3499,
+		"oldPrice": 4199,
+		"stockQuantity": 335,
+		"lunbo": [
+			{ "img":"../src/images/goods7-1.jpg" },
+			{ "img":"../src/images/goods7-2.jpg" }
+		]
+	},
+	{ 
+		"id": 3,
+		"goodsNo": "SD461545457", 		
+		"brand": "华为",
+		"name": "荣耀20i",
+		"title": "荣耀20i 3200万AI自拍 超广角三摄 全网通版6GB+64GB 幻夜黑 移动联通电信4G全面屏手机 双卡双待",
+		"addTime":"2019-09-09T13:56:59.876Z",
+		"zhaiyao":"",
+		"click": 3,
+		"img":"../src/images/goods2-1.jpg",
+		"nowPrice": 1299,
+		"oldPrice": 1599,
+		"stockQuantity": 125,
+		"lunbo": [
+			{ "img":"../src/images/goods2-1.jpg" },
+			{ "img":"../src/images/goods2-2.jpg" },
+			{ "img":"../src/images/goods2-3.jpg" }
+		]
+	},
+	{ 
+		"id": 4,
+		"goodsNo": "SD461545458", 		
+		"brand": "小米",
+		"name": "Redmi K20Pro",
+		"title": "Redmi K20Pro 尊享版 骁龙855Plus 索尼4800万超广角三摄 AMOLED弹出式全面屏 12GB+512GB ",
+		"addTime":"2019-09-09T13:56:59.876Z",
+		"zhaiyao":"",
+		"click": 3,
+		"img":"../src/images/goods4-1.jpg",
+		"nowPrice": 3199,
+		"oldPrice": 3599,
+		"stockQuantity": 125,
+		"lunbo": [
+			{ "img":"../src/images/goods4-1.jpg" },
+			{ "img":"../src/images/goods4-2.jpg" },
+			{ "img":"../src/images/goods4-3.jpg" }
+		]
+	},
+	{ 
+		"id": 5,
+		"goodsNo": "SD461545455", 		
+		"brand": "华为",
+		"name": "荣耀V20",
+		"title": "荣耀V20 游戏手机 麒麟980芯片 魅眼全视屏 4800万深感相机 6GB+128GB",
+		"addTime":"2019-09-09T13:56:59.876Z",
+		"zhaiyao":"",
+		"click": 3,
+		"img":"../src/images/goods5-1.jpg",
+		"nowPrice": 2099,
+		"oldPrice": 2399,
+		"stockQuantity": 125,
+		"lunbo": [
+			{ "img":"../src/images/goods5-1.jpg" },
+			{ "img":"../src/images/goods5-2.jpg" },
+			{ "img":"../src/images/goods5-3.jpg" },
+			{ "img":"../src/images/goods5-4.jpg" }
+		]
+	},
+	{ 
+		"id": 6,
+		"goodsNo": "SD461545456", 		
+		"brand": "华为",
+		"name": "荣耀10青春版",
+		"title": "荣耀10青春版 幻彩渐变 2400万AI自拍 全网通版4GB+64GB 渐变蓝 移动联通电信4G全面屏手机 双卡双待",
+		"addTime":"2019-09-09T13:56:59.876Z",
+		"zhaiyao":"",
+		"click": 3,
+		"img":"../src/images/goods6-1.jpg",
+		"nowPrice": 999,
+		"oldPrice": 1199,
+		"stockQuantity": 1785,
+		"lunbo": [
+			{ "img":"../src/images/goods6-1.jpg" },
+			{ "img":"../src/images/goods6-2.jpg" },
+			{ "img":"../src/images/goods6-3.jpg" }
+		]
+	},
+	{ 
+		"id": 7,
+		"goodsNo": "SD461545457", 		
+		"brand": "VIVO",
+		"name": "vivo iQOO Pro",
+		"title": "vivo iQOO Pro 12GB+128GB 竞速黑 高通骁龙855Plus手机 4800万AI三摄 44W超快闪充 5G全网通手机",
+		"addTime":"2019-09-09T13:56:59.876Z",
+		"zhaiyao":"",
+		"click": 3,
+		"img":"../src/images/goods8-1.jpg",
+		"nowPrice": 4098,
+		"oldPrice": 4298,
+		"stockQuantity": 125,
+		"lunbo": [
+			{ "img":"../src/images/goods8-1.jpg" },
+			{ "img":"../src/images/goods8-2.jpg" }
+		]
+	},
+	{ 
+		"id": 8,
+		"goodsNo": "SD461545458", 		
+		"brand": "中兴",
+		"name": "天机7MAX",
+		"title": "中兴（ZTE）天机7MAX（c2017）4GB+64GB 金色 移动联通电信全网通4G手机",
+		"addTime":"2019-09-09T13:56:59.876Z",
+		"zhaiyao":"",
+		"click": 3,
+		"img":"../src/images/goods9-1.jpg",
+		"nowPrice": 699,
+		"oldPrice": 999,
+		"stockQuantity": 125,
+		"lunbo": [
+			{ "img":"../src/images/goods9-1.jpg" },
+			{ "img":"../src/images/goods9-2.jpg" },
+			{ "img":"../src/images/goods9-3.jpg" }
+		]
+	},
+	{ 
+		"id": 9,
+		"goodsNo": "SD461545458", 		
+		"brand": "魅族",
+		"name": "魅族M15",
+		"title": "魅族（MEIZU）魅族M15 手机 曜岩黑4G+64G",
+		"addTime":"2019-09-09T13:56:59.876Z",
+		"zhaiyao":"",
+		"click": 3,
+		"img":"../src/images/goods10-1.jpg",
+		"nowPrice": 999,
+		"oldPrice": 1299,
+		"stockQuantity": 125,
+		"lunbo": [
+			{ "img":"../src/images/goods10-1.jpg" },
+			{ "img":"../src/images/goods10-2.jpg" },
+			{ "img":"../src/images/goods10-3.jpg" }
+		]
+	}
+]

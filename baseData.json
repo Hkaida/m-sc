@@ -1,0 +1,20 @@
+{
+	"lunbo":[
+		{ 
+			"img":"../src/images/huawei.jpg",
+			"id":"1"
+		},
+		{ 
+			"img":"../src/images/huawei2.jpg",
+			"id":"5"
+		},
+		{ 
+			"img":"../src/images/huawei3.jpg",
+			"id":"3"
+		},
+		{ 
+			"img":"../src/images/huawei4.jpg",
+			"id":"6"
+		}
+	]
+}
