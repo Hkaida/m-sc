@@ -32,5 +32,7 @@ router.get('/getshopcar', service.getShopCar);
 router.post('/addToShopcar', service.addToShopCar);
 //删除购物车
 router.post('/delShopcar', service.delShopCar);
+//修改购物车商品数据
+router.post('/updateCount', service.updateCount);
 
 module.exports = router;

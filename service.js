@@ -266,7 +266,7 @@ exports.addToShopCar = (req, res) => {
 			let flag = true;
 			item.car.some(item2 => {
 				if (item2.id == goods.id) {
-					item2.count++;
+					parseInt(item2.count) += parseInt(goods.count);
 					flag = false;
 				}
 			});
@@ -306,5 +306,31 @@ exports.delShopCar = (req, res) => {
 					res.send({ status: 0 });
 					});
 	});
-	res.send({ status: 0 });
+	res.send({ status: 1 });
 }
+//修改购物车商品数量
+exports.updateCount = (req, res) => {
+	console.log("修改购物车商品数量");
+	console.log(req.body);
+	let userCookie = getCookie("user", req);
+	userData.some(item => {
+		if( userCookie.user == item.user ){
+			item.car.some(item2 => {
+				if(item2.id == req.body.id){
+					item2.count = parseInt(req.body.count);
+					return true
+				}
+			});
+			return true
+		}
+		fs.writeFile(path.join(__dirname,'userData.json'),JSON.stringify(userData,null,4),(err)=>{
+			if(err){
+				res.send({ status: 1 });
+			}
+			res.cookie('car', item.car);
+			res.send({ status: 0 });
+		});
+	});
+	
+	res.send({ status: 1 });
+} 
