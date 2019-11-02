@@ -87,7 +87,18 @@ exports.getCategory = (req, res) => {
 			});
 		}
 	});
-	console.log(data);
+	//凑数-------------------------
+		data.message.forEach(item => {
+			let num = 3;
+			if(item.categoryName == "华为"){
+				num = 1;
+			}
+			for(let i=0; i < num; i++){
+				item.goodsList = item.goodsList.concat(item.goodsList)
+			}
+		});
+		data.message = data.message.concat(data.message);
+	//-----------------------------
 	res.send(data);
 }
 
@@ -254,8 +265,10 @@ exports.addToShopCar = (req, res) => {
 	//获取商品数据
 	goodsData.some(item => {
 		if (item.id == goods.id){
-			goods.title = item.title,
-			goods.price = item.nowPrice,
+			goods.count = parseInt(goods.count);
+			goods.brand = item.brand;
+			goods.title = item.title;
+			goods.price = item.nowPrice;
 			goods.thumb = item.lunbo[0].img
 			return true
 		}
@@ -266,7 +279,7 @@ exports.addToShopCar = (req, res) => {
 			let flag = true;
 			item.car.some(item2 => {
 				if (item2.id == goods.id) {
-					parseInt(item2.count) += parseInt(goods.count);
+					item2.count = parseInt(item2.count) + parseInt(goods.count);
 					flag = false;
 				}
 			});
@@ -281,6 +294,7 @@ exports.addToShopCar = (req, res) => {
 				res.send({ status: 0 });
 			});
 		}
+		return true;
 	});
 	
 }
@@ -296,7 +310,6 @@ exports.delShopCar = (req, res) => {
 					return true
 				}
 			});
-			return true
 		}
 		fs.writeFile(path.join(__dirname,'userData.json'),JSON.stringify(userData,null,4),(err)=>{
 						if(err){
@@ -305,8 +318,8 @@ exports.delShopCar = (req, res) => {
 					res.cookie('car', item.car);
 					res.send({ status: 0 });
 					});
+		return true
 	});
-	res.send({ status: 1 });
 }
 //修改购物车商品数量
 exports.updateCount = (req, res) => {
@@ -321,7 +334,6 @@ exports.updateCount = (req, res) => {
 					return true
 				}
 			});
-			return true
 		}
 		fs.writeFile(path.join(__dirname,'userData.json'),JSON.stringify(userData,null,4),(err)=>{
 			if(err){
@@ -330,7 +342,6 @@ exports.updateCount = (req, res) => {
 			res.cookie('car', item.car);
 			res.send({ status: 0 });
 		});
+		return true
 	});
-	
-	res.send({ status: 1 });
 } 

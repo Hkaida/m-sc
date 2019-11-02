@@ -22,6 +22,6 @@ app.use(router);
 //----------------------------------------------------
 //启用cookie解析器
 app.use(cookieParser());
-app.listen(3000,()=>{
+app.listen(3000, '192.168.43.58',()=>{
     console.log('running...');
 });
